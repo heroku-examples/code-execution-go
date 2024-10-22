@@ -1,0 +1,24 @@
+{
+  "name": "code-exec-go",
+  "description": "Use Heroku Dynos as a Go code execution environment in your AI applications.",
+  "logo": "https://raw.githubusercontent.com/heroku-examples/code-execution-go/refs/heads/main/go.png",
+  "buildpacks": [
+    {
+      "url": "heroku/go"
+    }
+  ],
+  "env": {
+    "GO_INSTALL_TOOLS_IN_IMAGE": {
+      "description": "Ensures the `go` binary is available in the Heroku Dyno.",
+      "value": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 0
+    }
+  },
+  "addons": [],
+  "scripts": {},
+  "stack": "heroku-24"
+}
