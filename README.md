@@ -4,7 +4,7 @@ Use Heroku Dynos as a Go code execution environment within your AI applications.
 
 Best of all, the app is free to deploy and does not require actively running Dynos.
 
-<img src="go.png" alt="Heroku Go" width="540">
+<img src="go.png" alt="Heroku Go" width="250">
 
 ## Deploy the app on Heroku
 
